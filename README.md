@@ -154,7 +154,13 @@ cd frontend && npm run build
 # Or deploy frontend to Vercel/Netlify, backend to Railway/Render
 ```
 
+### Deploy to Render (Free)
+1. Push to GitHub
+2. Create two services on [render.com](https://render.com):
+   - **Web Service** (backend): `npm start`, set env vars
+   - **Static Site** (frontend): `npm run build`, publish dir: `dist`
 
+---
 
 ## 🛠️ Tech Stack
 
