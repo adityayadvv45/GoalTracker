@@ -110,7 +110,9 @@ export default function Layout() {
         </div>
 
         {/* Footer (fixed bottom inside layout) */}
-        
+        <footer className="text-center text-xs text-text-3 py-4 border-t border-white/5">
+        © 2026 Aditya Yadav | Goal Tracker
+        </footer>
 
       </main>
     </div>
